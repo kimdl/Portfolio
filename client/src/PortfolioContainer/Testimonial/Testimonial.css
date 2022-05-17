@@ -1,0 +1,78 @@
+.testimonial-section{
+    padding: 70px 0 50px;
+    /* background-image: url("../../../src/assets/Testimonial/bg-1.jpg"); */
+    background-color: #FADCD9;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1;
+}
+.testimonial-section::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.85;
+    background-color: var(--dark-orange);
+}
+.footer-image{
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: -110px;
+}
+.footer-image img{
+    max-width: 100%;
+    height: 130px;
+}
+
+.testimonial-section .testi-item{
+    background-color: white;
+    padding: 30px;
+    border-top: 3px solid var(--grey);
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0px 20px -2px var(--dark-blue);
+}
+.testimonial-section .testi-item p{
+    font-style: italic;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 0;
+}
+.testimonial-section .testi-item p img{
+    margin: 10px 0;
+}
+
+.testimonial-section .testi-comment .icons {
+    margin: 0 0 5px;
+}
+.testimonial-section .testi-comment .icons li {
+    display: inline-block;
+    margin: 0 1px;
+}
+.testimonial-section .testi-comment .icons li img {
+    width: 30px;
+}
+.testimonial-section .project-info{
+    position: relative;
+    min-height: 60px;
+}
+.testimonial-section h5{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0 0 2px;
+    color: var(--grey);
+
+}
+.testimonial-section .project-info p{
+    font-size: 14px;
+    font-style: normal;
+}
