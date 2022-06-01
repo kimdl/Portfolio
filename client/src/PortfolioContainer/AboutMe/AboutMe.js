@@ -18,6 +18,7 @@ export default function AboutMe(props){
         description: "Hi there! I'm Kim De Leon an aspiring full stack developer. A graduate at University of Rizal System Binangonan Rizal on June of 2022 with the course of Bachelor of Science in Information Technology. I started programming in Senior Highschool when I was in STI Ortigas Cainta. I choose IT because I was inspired by the way technology helps and impact the lives of the people. I like all parts of creative process and learning new skills. I have a good sense of team work and camaraderie as I have done so in school and in my intership. I enjoy meeting new people and learning with or from them as well as taking on new challenges.",
         highlights:{
             bullets:[
+                "CUM LAUDE",
                 "Photoshop",
                 "Video Editing",
                 "Blender",

@@ -70,7 +70,7 @@ export default function ContactMe(props) {
     return (
         <div className='main-container fade-in' id={props.id || ''}>
             <ScreenHeading
-                subHeading={"Let's keep in touch."}
+                subHeading={"deleonkimberlynelle@gmail.com"}
                 title={"Contact Me"}
             />
 
@@ -146,7 +146,7 @@ export default function ContactMe(props) {
             </div>
             
             <div className='footer'>
-                Copyrights © 2022, All Right Reserve
+                KIM DE LEON © 2022
             </div>
 
         </div>

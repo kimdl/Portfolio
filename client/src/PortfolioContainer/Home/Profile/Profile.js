@@ -46,7 +46,7 @@ export default function Profile() {
                                     1000,
                                     "Photoshop",
                                     1000,
-                                    "Blender",
+                                    "UI/UX Enthusiast",
                                     1000,
                                     "Video Editor",
                                     1000,
